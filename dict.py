@@ -25,10 +25,12 @@ print(d.values()) #dict_values(['madhuri_updated', 123])
 print(d.items())# dict_items([('name', 'madhuri_updated'), ('phone', 123)])
 
 for key in d:
+    print("******")
     print(key)
+    print("******")
 
 for key,value in d.items():
     print(key,value)
 
 
-    test1
+    

@@ -18,7 +18,7 @@ print(even_nums) #[2, 4, 6]
 even_nums=map(lambda n:n%2==0, nums) #[False, True, False, True, False, True, False]
 print(even_nums)
 
-even_nums=filter(lambda n:n%2==0, nums) #[False, True, False, True, False, True, False]
+even_nums=filter(lambda n:n%2==0, nums) 
 print(even_nums) #[2, 4, 6]
 
 two_lists=[(letter,num) for letter in 'ab' for num in '012'] #[('a', '0'), ('a', '1'), ('a', '2'), ('b', '0'), ('b', '1'), ('b', '2')]
