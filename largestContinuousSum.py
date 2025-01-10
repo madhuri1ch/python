@@ -4,7 +4,7 @@ current_sum=l[0]
 max_sum=l[0]
 
 for num in l[1::]:
-    current_sum=max(current_sum,num+current_sum)
+    current_sum=max(num,num+current_sum)
     max_sum=max(current_sum,max_sum)
     
 
