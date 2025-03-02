@@ -13,7 +13,8 @@ def largestNumber( A):
             before=str(A[i])+str(number)
             after=str(number)+str(A[i])
             print("before{} , after:{} ".format(before,after))
-            number=max(int(before),int(after))
+            #number=max(int(before),int(after))
+            number=int(after)
      
         return number
 
